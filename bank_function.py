@@ -13,6 +13,9 @@ def bank(add: float, sub: float, total = 0):
             return f'SUB can not be more than total'
         return f'ADD: {add} SUB: {sub} (total: {total})'
 
+while True:
+    print(bank(float(input()), float(input())))
+
 
 
 
